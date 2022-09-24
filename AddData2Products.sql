@@ -1,0 +1,32 @@
+INSERT INTO Products (Name, Brand, Category, Subcategory)
+VALUES
+    ( 'Olive and Tea Tree Oil Dandruff Treatment', 'As I Am', 'Hair', 'Oil'),
+    ('Growth Oil', 'The Mane Choice', 'Hair', 'Oil'),
+    ('No More Itch Spray', 'Jamaican Mango and Lime', 'Hair', 'Moisturizer'),
+    ('Cool Scalp', 'Jamaican Mango and Lime', 'Hair', 'Moisturizer'),
+    ('Aloe Vera Spray', 'Green Leaf Naturals', 'Hair', 'Moisturizer'),
+    ('Pomade', 'Natures Blessing', 'Hair', 'Moisturizer'),
+    ('Anti Dandruff', 'Dove', 'Hair', 'Shampoo'),
+    ('Pow', 'The Mane Choice', 'Hair', 'Shampoo'),
+    ('Detangling Spray', 'Cantu', 'Hair', 'Moisturizer'),
+    ('Styling Custard', 'Cantu', 'Hair', 'Gel'),
+    ('Hair and Scalp Oil', 'Cantu', 'Hair', 'Oil'),
+    ('Castile Soap', 'Dr Bronners', 'Face', 'Cleanser'),
+    ('Holy Hydration Face Cream', 'elf', 'Face', 'Moisturizer'),
+    ('Indian Clay Mask', 'Aztec Healing', 'Face', 'Face Mask'),
+    ('Drama Bomb', 'Uoma', 'Face', 'Mascara'),
+    ('Superhero', 'IT Cosmetics', 'Face', 'Mascara'),
+    ('Eaze Drop Blurring Skin Tint', 'Fenty Beauty', 'Face', 'BB Cream'),
+    ('Bye Bye Under Eye Concealer', 'IT Cosmetics', 'Face', 'Concealer'),
+    ('Stay Glossy 130', 'Rimmel', 'Face', 'Lip Gloss'),
+    ('Colorstay Satin Finish 019', 'Revlon', 'Face', 'Lipstick'),
+    ('Sugar Lip Polish', 'NIU Body', 'Face', 'Lip Polish'),
+    ('Instant Lift Brow Pencil', 'elf', 'Face', 'Brow Pencil'),
+    ('Liquid eyeliner', 'Luna', 'Face', 'Eyeliner'),
+    ('Bare With Me Multitasking Spray', 'NYX','Face', 'Moisturizer'),
+    ('Leg Mask', 'Nair', 'Body', 'Hair Removal'),
+    ('Shower Cream', 'Nair', 'Body', 'Hair Removal'),
+    ('Black Girl Sunscreen', 'Black Girl Sunscreen', 'Body', 'Sunscreen'),
+    ('Wild Vanilla Orchard', 'Floral Street', 'Body', 'Perfume');
+
+--create trigger for inserting id into reviews and rating table
